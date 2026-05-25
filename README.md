@@ -34,7 +34,7 @@ Lea detenidamente el enunciado y asegúrese de comprender los requisitos funcion
 
 - **Nombre único:** No se permite registrar dos espacios con el mismo nombre sin importar mayúsculas/minúsculas. No puede existir un espacio sin nombre ni type.
 - **Precio válido:** El precio por hora debe ser mayor a cero. No se permiten espacios gratuitos.
-- **Capacidad mínima:** Todo espacio debe tener capacidad de al menos 1 persona. Un `EVENT_HALL` debe tener capacidad mínima de 10 personas.
+- **Capacidad mínima:** Todo espacio debe tener capacidad de al menos 1 persona.
 - **Disponibilidad:** Si `available = false`, el espacio no puede ser reservado. Un espacio solo puede marcarse como `available = false` manualmente por administración o por tener una reserva activa.
 - **Protección de eliminación:** No se puede eliminar un espacio que tenga `available = false` (indica que está en uso o bloqueado).
 - **Actualización de precio:** El nuevo precio debe ser siempre mayor a 0; no se permite bajar el precio a 0 o valores negativos.
