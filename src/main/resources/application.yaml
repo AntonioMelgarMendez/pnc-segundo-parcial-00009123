@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: pnc-segundo-parcial-00009123
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/magic_wand
+    password: 12341234
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  security:
+    user:
+      name: postgres
+      password: root
